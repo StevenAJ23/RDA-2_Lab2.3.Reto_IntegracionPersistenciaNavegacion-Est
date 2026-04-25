@@ -75,7 +75,7 @@ fun ReviewScreen(viewModel: ReviewViewModel) {
     ) {
 
         Text(
-            text = "Sistema de Reseñas",
+            text = "Sistema Resilente de Reseñas",
             style = MaterialTheme.typography.headlineMedium
         )
 
