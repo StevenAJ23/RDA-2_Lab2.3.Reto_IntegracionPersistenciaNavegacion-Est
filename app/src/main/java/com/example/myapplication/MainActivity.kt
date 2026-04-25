@@ -64,7 +64,7 @@ fun ReviewScreen(viewModel: ReviewViewModel) {
 
     // Bloquea el botón atrás si hay texto
     BackHandler(enabled = comment.isNotEmpty()) {
-        Log.d("BACK_HANDLER", "No se puede salir, hay comentario")
+        Log.d("BACK_HANDLER", "No se puede salir, hay comentario en la aplicacion")
     }
 
     Column(
